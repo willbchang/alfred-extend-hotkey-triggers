@@ -26,7 +26,7 @@ NOTICE: I tried to export a workflow which contains the shortcut, it didn't work
 4. Change/Add the `hotmod` value to `131072`.
 5. Remember to save the changes in your editor.
 
-Still want more? 
+Still want more? You can also try https://manytricks.com/keycodes/
 ```python
 hotmod = {		131072 : "shift",
 				262144 : "control",
