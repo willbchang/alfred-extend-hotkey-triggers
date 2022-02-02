@@ -1,14 +1,14 @@
 # Alfred Extend Hotkey Triggers
-Use <kbd>shift</kbd> + <kbd>space</kbd> and <kbd>fn</kbd> + <kbd>Other Keys</kbd> as your hotkey triggers.
+Use <kbd>Shift</kbd> + <kbd>Space</kbd> and <kbd>fn</kbd> + <kbd>somekey</kbd> as your hotkey triggers.
 
 ![showcase](images/showcase.png)
 
 ## Usage
 1. Create a blank workflow by clicking the `+` in the bottom of Workflows.
 2. Open the workflow in Finder by right clicking the blank workflow.
-3. Download [info.plist](https://raw.githubusercontent.com/willbchang/alfred-extend-hotkey-triggers/master/info.plist) and drag it to the folder to replace the default `info.plist`.
+3. Download [info.plist](https://raw.githubusercontent.com/willbchang/alfred-extend-hotkey-triggers/master/info.plist) (press <kbd>Alt</kbd> + `left click` to the link) and drag it to the folder to replace the default `info.plist`.
 4. Wait for seconds and see the changes in the blank workflow.
-5. Press <kbd>shift</kbd> + <kbd>space</kbd> and <kbd>fn</kbd> + <kbd>R</kbd> to test.
+5. Press <kbd>Shift</kbd> + <kbd>Space</kbd> and <kbd>fn</kbd> + <kbd>R</kbd> to test.
 
 https://user-images.githubusercontent.com/14329786/152137289-1408e50e-5184-4d0a-a4be-ad152f2c9774.mp4
 
@@ -34,7 +34,7 @@ https://user-images.githubusercontent.com/14329786/152137289-1408e50e-5184-4d0a-
 3. Change/Add the `hotmod` value to `131072`.
 4. Remember to save the changes in your editor.
 
-### fn + one key
+### fn + somekey
 This only test in macOS 12, versions below 12 may not be supported.
 The code below represents <kbd>fn</kbd> + <kbd>R</kbd>.
 ```xml
