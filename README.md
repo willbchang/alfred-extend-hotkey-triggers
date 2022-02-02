@@ -1,6 +1,8 @@
 # Alfred Extend Hotkey Triggers
 Use <kbd>Shift</kbd> + <kbd>Space</kbd> and <kbd>fn</kbd> + <kbd>somekey</kbd> as your hotkey triggers.
 
+Please give me a star if it's helpful to you. ;)
+
 ![showcase](images/showcase.png)
 
 ## Usage
@@ -48,7 +50,7 @@ The code below represents <kbd>fn</kbd> + <kbd>R</kbd>.
 **hotkeys**:
 ![hotkeys](images/hotkeys.png)
 
-**hotmods**
+**hotmods**<br>
 *Note: Some hotmods are duplicated, I haven't used them all so I didn't test. Pull request is welcome.*
 
 | Hotmod Integers | Hotkey Modefiers                   |
