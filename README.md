@@ -6,7 +6,7 @@ Use <kbd>shift</kbd> + <kbd>space</kbd> and <kbd>fn</kbd> + <kbd>Other Keys</kbd
 ## Usage
 1. Create a blank workflow by clicking the `+` in the bottom of Workflows.
 2. Open the workflow in Finder by right clicking the blank workflow.
-3. Download [info.plist](info.plist) and drag it to the folder to replace the default `info.plist`.
+3. Download [info.plist](https://raw.githubusercontent.com/willbchang/alfred-extend-hotkey-triggers/master/info.plist) and drag it to the folder to replace the default `info.plist`.
 4. Wait for seconds and see the changes in the blank workflow.
 5. Press <kbd>shift</kbd> + <kbd>space</kbd> and <kbd>fn</kbd> + <kbd>R</kbd> to test.
 
