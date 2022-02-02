@@ -13,7 +13,7 @@ Use <kbd>Shift</kbd> + <kbd>Space</kbd> and <kbd>fn</kbd> + <kbd>somekey</kbd> a
 https://user-images.githubusercontent.com/14329786/152137289-1408e50e-5184-4d0a-a4be-ad152f2c9774.mp4
 
 ### Shift Space
-1. Open the `info.plist`.
+1. Open the `info.plist` of your workflow.
 
     If your editor supports `.plist`, like Xcode:
     ![xcode](images/xcode.png)
@@ -24,14 +24,14 @@ https://user-images.githubusercontent.com/14329786/152137289-1408e50e-5184-4d0a-
     If you want to use text editor, find something like the code below:<br>
     NOTICE: There might be multiple shortcuts in one workflow.<br>
     This tool might be helpful: [Diff Checker](https://www.diffchecker.com/u6GunNUY)
-    ```xml
+```xml
                 <key>hotkey</key>
                 <integer>49</integer>
                 <key>hotmod</key>
                 <integer>131720</integer>
-    ```
+```
 2. Change/Add the `hotkey` value to `49`.
-3. Change/Add the `hotmod` value to `131072`.
+3. Change/Add the `hotmod` value to `131720`.
 4. Remember to save the changes in your editor.
 
 ### fn + somekey
@@ -49,11 +49,12 @@ The code below represents <kbd>fn</kbd> + <kbd>R</kbd>.
 ![hotkeys](images/hotkeys.png)
 
 **hotmods**
-*Note: Somethings are duplicated, I haven't use them all so I didn't test. Pull request is welcome.*
+*Note: Some hotmods are duplicated, I haven't used them all so I didn't test. Pull request is welcome.*
 
 | Hotmod Integers | Hotkey Modefiers                   |
 |------------------|------------------------------------|
 | 131072           | Shift                              |
+| 131720           | Shift                              |
 | 262144           | Control                            |
 | 262401           | Control                            |
 | 393216           | Shift + Control                    |
