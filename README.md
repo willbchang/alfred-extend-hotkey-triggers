@@ -38,10 +38,10 @@ https://user-images.githubusercontent.com/14329786/152137289-1408e50e-5184-4d0a-
 This only test in macOS 12, versions below 12 may not be supported.
 The code below represents <kbd>fn</kbd> + <kbd>R</kbd>.
 ```xml
-				<key>hotkey</key>
-				<integer>15</integer>
-				<key>hotmod</key>
-				<integer>8388608</integer>
+                <key>hotkey</key>
+                <integer>15</integer>
+                <key>hotmod</key>
+                <integer>8388608</integer>
 ```
 
 ### Still wants more?
@@ -49,6 +49,8 @@ The code below represents <kbd>fn</kbd> + <kbd>R</kbd>.
 ![hotkeys](images/hotkeys.png)
 
 **hotmods**
+*Note: Somethings are duplicated, I haven't use them all so I didn't test. Pull request is welcome.*
+
 | Hotmod Integers | Hotkey Modefiers                   |
 |------------------|------------------------------------|
 | 131072           | Shift                              |
