@@ -7,7 +7,7 @@ Please give me a star if it's helpful to you. ;)
 
 ## Usage
 1. Create a blank workflow by clicking the `+` in the bottom of Workflows.
-2. Open the workflow in Finder by right clicking the blank workflow.
+2. Open the workflow in Finder by right click the blank workflow.
 3. Download [info.plist](https://raw.githubusercontent.com/willbchang/alfred-extend-hotkey-triggers/master/info.plist) (press <kbd>Alt</kbd> + `left click` to the link) and drag it to the folder to replace the default `info.plist`.
 4. Wait for seconds and see the changes in the blank workflow.
 5. Press <kbd>Shift</kbd> + <kbd>Space</kbd> and <kbd>fn</kbd> + <kbd>R</kbd> to test.
@@ -37,7 +37,7 @@ https://user-images.githubusercontent.com/14329786/152137289-1408e50e-5184-4d0a-
 4. Remember to save the changes in your editor.
 
 ### fn + somekey
-This only test in macOS 12, versions below 12 may not be supported.
+Works with macOS 12+ <br>
 The code below represents <kbd>fn</kbd> + <kbd>R</kbd>.
 ```xml
                 <key>hotkey</key>
